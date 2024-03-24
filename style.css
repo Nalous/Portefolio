@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+.corps{
+    
+    height: 20rem;
+    position: relative;
+}
+section{
+    padding: 5rem 0;
+    background: url('back.jpg');
+    text-align: center;
+    padding-left: 5rem;
+  
+}
+section nav{
+    position: absolute;
+    left: 0.3rem;
+    display: flex;
+    flex-direction: column;
+}
+section nav a {
+    padding-bottom: .4rem;
+    opacity: .5;
+    transition: opacity 1s .1s;
+}
+section nav a:hover{
+    opacity: 1;
+}
+section p{
+    font-size: 1.3rem;
+    font-family: rockwell;
+}
+button{
+    background-color: #facf10;
+    border: none;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2.5rem;
+    box-shadow: 1px 1px 5px #4c3636
+}
+h1{
+    font-weight: bold;
+    font-family: consolas;
+
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+.profil{
+    display: flex;
+    height: 70px;
+}
+.profil span{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.profil span{
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    padding: 0 2.5rem;
+    font-weight: bold;
+    font-family: calibri;
+    font-style: italic;
+    font-size: 1.3rem;
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav span{
+    padding-right: 4rem;
+}
+section nav a img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.projet a{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: 1.1rem;
+}
+.projet{
+    display: none;
+}
+header nav + span{
+    coler: red;
+}
+.pro{
+    text-decoration: underline;
+}
